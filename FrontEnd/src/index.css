@@ -1,0 +1,11 @@
+@import "./styles/base.css";
+@import "./styles/layout.css";
+@import "./styles/form.css";
+@import "./styles/buttons.css";
+
+:root { font-family: system-ui, Segoe UI, Roboto, Arial, sans-serif; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #0f172a; color: #e2e8f0; }
+a { color: #93c5fd; text-decoration: none; }
+a:hover { text-decoration: underline; }
+

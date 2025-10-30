@@ -1,0 +1,28 @@
+:root {
+  --primary: #2563eb;
+  --primary-dark: #1d4ed8;
+  --gray-100: #f3f4f6;
+  --gray-300: #d1d5db;
+  --gray-600: #4b5563;
+  --gray-800: #1f2937;
+  --error: #dc2626;
+  --success: #16a34a;
+  --radius: 8px;
+  --transition: 0.2s ease-in-out;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+  background-color: var(--gray-100);
+  color: var(--gray-800);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

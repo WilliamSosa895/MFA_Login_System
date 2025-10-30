@@ -1,0 +1,26 @@
+.card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: var(--radius);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  width: 100%;
+  max-width: 380px;
+  text-align: center;
+}
+
+.card h1 {
+  margin-bottom: 1rem;
+  color: var(--gray-800);
+}
+
+.muted {
+  color: var(--gray-600);
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+.msg {
+  margin-top: 1rem;
+  color: var(--error);
+  font-size: 0.9rem;
+}
